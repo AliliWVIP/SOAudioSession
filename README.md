@@ -2,7 +2,9 @@
 
 使用Swift封装的AudioSession库。
 
+### 集成
 
+下载代码后，把**AVAudioSession+Routers.swift**   和 **SOAudioSession.swift** 复制到项目中即可。
 
 ### 使用
 
