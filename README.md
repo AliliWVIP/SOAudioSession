@@ -12,7 +12,8 @@
 SOAudioSession.shared.preferredSampleRate = 44100.0
 SOAudioSession.shared.active = true
 //  添加监听方法
-SOAudioSession.shared.addRouteChangeListener()        SOAudioSession.shared.addAudioSessionInterruptedListener()
+SOAudioSession.shared.addRouteChangeListener()
+SOAudioSession.shared.addAudioSessionInterruptedListener()
 // 添加代理
 SOAudioSession.shared.delegate = self
 SOAudioSession.shared.interruption = self
